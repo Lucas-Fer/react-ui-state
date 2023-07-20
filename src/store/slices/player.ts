@@ -28,7 +28,9 @@ const playerSlice = createSlice({
           ],
         },
       ],
-    }
+    },
+    currentModuleLesson: 0,
+    currentLessonIndex: 0,
   },
   reducers: {}
 })
